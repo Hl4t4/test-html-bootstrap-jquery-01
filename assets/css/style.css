@@ -1,0 +1,97 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: #373A3C;
+}
+
+.bg-navbar-color {
+    background-color: #373A3C;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Usado para tamaños de pantallas muy pequeño */
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 30px;
+}
+
+.hbold {
+    font-weight: 700;
+}
+
+.tiny-button {
+    font-size: 13px;
+}
+
+li {
+    color: #373A3C;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo-text {
+    font-family: 'Lobster', sans-serif;
+    font-size: 37px;
+}
+
+.lobster-text {
+    font-family: 'Lobster', sans-serif;
+}
+
+.bg-nosotros-color {
+    background-color: #DC3545;
+}
+
+
+
+#nosotros-regular{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#nosotros {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.tooltip-inner {
+    background-color: #373A3C;
+    box-shadow: 0px 0px 4px #373A3C;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #000000;
+    color: #000000;
+    margin: 1em 0;
+    padding: 0;
+    background-color: #000000;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    margin-bottom: -70px;
+    height: 30px;
+    background-color: #373A3C;
+  }
