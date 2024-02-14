@@ -16,11 +16,11 @@ $(document).ready(function(){
     $(".card-title-collapse").on('click', function() {
         // $("#recetas-relacionadas>div>div>div>div").toggle(1000, function(){
         // Funcion para desaparecer el card por un tiempo
-        // $(".card-receta").toggle(1000, function(){
-        //     $(this).toggle(1000, function(){});
-        // });
+        $(".card-receta").toggle(1000, function(){
+             $(this).toggle(1000, function(){});
+        });
 
-        $(".card-text-collapse").toggle();
+        // $(".card-text-collapse").toggle();
     });
 
 
