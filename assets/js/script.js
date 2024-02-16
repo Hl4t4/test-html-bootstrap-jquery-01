@@ -6,7 +6,7 @@ $(document).ready(function(){
         alert("El correo fue enviado correctamente...")
     });
     
-    $("h3[class$='card-title']").on('dblclick', function() {
+    $("h3[class~='card-title']").on('dblclick', function() {
         $(this).css({
             "color" : "red"
         });
